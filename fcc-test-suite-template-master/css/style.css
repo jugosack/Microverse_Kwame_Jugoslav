@@ -14,11 +14,23 @@ body {
 #img-div {
     padding: 10px;
     margin: 0;
+    background-color: white;
 }
 
-#image {
+#image,
+#image p {
     max-width: 100%;
     display: block;
     height: auto;
     margin: 0 auto;
+}
+
+#title {
+    font-size: 64px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+#main {
+    background-color: rgba(0, 0, 0, 0.05);
 }
